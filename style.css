@@ -20,9 +20,9 @@ body{
 }
 p{
   font-size: 3rem;
-    margin: 0;
-    color: #000000cf;
-    font-weight: 300;
+  margin: 0;
+  color: #000000cf;
+  font-weight: 300;
 }
 .calculator {
    grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -113,9 +113,7 @@ p{
 
  }
  .input .input__top{
-   display: flex;
-   align-items: center;
-   justify-content: center;
+   text-align: end;
    font-size: 2rem;
 
 
