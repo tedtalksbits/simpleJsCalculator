@@ -30,10 +30,11 @@ p{
    gap: 1rem;
    grid-auto-flow: row;
    grid-template-areas:
+      "clear clear clear clear"
      "seven eight nine divide"
      "four five six multiply"
      "one two three subtract"
-     "zero equal equal add";
+     "zero decimal equal add";
   
    height: 500px;
  }
@@ -80,7 +81,8 @@ p{
  .add { grid-area: add; }
  
  .equal { grid-area: equal; }
-
+ .clear {grid-area: clear;}
+ .decimal {grid-area: decimal;}
 
  .calc-button{
     
